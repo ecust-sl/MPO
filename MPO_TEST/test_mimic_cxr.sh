@@ -1,0 +1,21 @@
+python main_test.py \
+    --image_dir /extra/shilei/dataset/physionet.org/files/mimic-cxr-jpg/2.0.0/images \
+    --ann_path /extra/shilei/dataset/annotations/mimic_annotation.json \
+    --dataset_name mimic_cxr \
+    --max_seq_length 100 \
+    --threshold 10 \
+    --epochs 30 \
+    --batch_size 32 \
+    --lr_ve 1e-4 \
+    --lr_ed 5e-4 \
+    --step_size 3 \
+    --gamma 0.8 \
+    --num_layers 3 \
+    --topk 32 \
+    --cmm_size 2048 \
+    --cmm_dim 512 \
+    --seed 7580 \
+    --beam_size 3 \
+    --save_dir results/mimic_cxr/ \
+    --log_period 1000 \
+    --load /home/shilei/project/R2GenRL/result/mimic_cxr/7580/B1_B4_F1/model_best.pth
