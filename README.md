@@ -7,14 +7,10 @@ This is the implementation of Radiology Report Generation via Multi-objective Pr
 - pip install -r requirement.txt
 
 ## Download MPO
-<<<<<<< HEAD
-You can download the models we pre-trained model for each dataset from [https://pan.baidu.com/s/1U11ptNWzbyYF2pe8Btr86g]() 提取码：2nq7
-=======
 
-You can download the models we pre-trained model for each dataset from []()
->>>>>>> 9d8f35ce96ecd45a646497172427d0d6c3ef0b6b
+You can download the models we pre-trained model for each dataset from [here](https://pan.baidu.com/s/1U11ptNWzbyYF2pe8Btr86g) 提取码：2nq7
 
-you can download the best models for each dateset from [https://pan.baidu.com/s/19JWHjHTSKHLmruo8CnwLyg]() 提取码：52tc
+you can download the best models for each dateset from [here](https://pan.baidu.com/s/19JWHjHTSKHLmruo8CnwLyg) 提取码：52tc
 
 ## Datasets
 
