@@ -1,4 +1,4 @@
-# PMO
+# MPO
 
 This is the implementation of Radiology Report Generation via Multi-objective Preference Optimization.
 
@@ -6,10 +6,10 @@ This is the implementation of Radiology Report Generation via Multi-objective Pr
 
 - pip install -r requirement.txt
 
-## Download PMO
-You can download the models we pre-trained model for each dataset from []()
+## Download MPO
+You can download the models we pre-trained model for each dataset from [https://pan.baidu.com/s/1U11ptNWzbyYF2pe8Btr86g]() 提取码：2nq7
 
-you can download the best models fro each dateset from []()
+you can download the best models for each dateset from [https://pan.baidu.com/s/19JWHjHTSKHLmruo8CnwLyg]() 提取码：52tc
 
 ## Datasets
 We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
@@ -24,16 +24,15 @@ Run `bash scripts/iu_xray/run_rl.sh` to train a model on the IU X-Ray data.
 
 Run `bash scripts/mimic-cxr/run_rl.sh` to train a model on the MIMIC-CXR data.
 
-You can download the pre-trained model for CheXbert from here: [Chexbert](https://stanfordmedicine.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9). Then place it in the `PMO_IU\PMO_TRAIN\CheXbert\checkpoint` directory.
+You can download the pre-trained model for CheXbert from here: [Chexbert](https://stanfordmedicine.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9). Then place it in the `MPO_IU\MPO_TRAIN\CheXbert\checkpoint` directory.
 
-For using RadGraph, you can refer to the following link: [RadGraph](https://github.com/hlk-1135/RadGraph). The specific model checkpoint can be downloaded from here: [model_checkpoint](https://physionet.org/content/radgraph/1.0.0/models/model_checkpoint/#files-panel). Place the related files in my `PMO_IU\PMO_TRAIN\RadGraph` directory.
+For using RadGraph, you can refer to the following link: [RadGraph](https://github.com/hlk-1135/RadGraph). The specific model checkpoint can be downloaded from here: [model_checkpoint](https://physionet.org/content/radgraph/1.0.0/models/model_checkpoint/#files-panel). Place the related files in my `MPO_IU\MPO_TRAIN\RadGraph` directory.
 
 ## Test
 
 在PMO_TEST
 
-Run `bash PMO/PMO_TEST/test_iu_xray.sh` to test a model on the IU X-Ray data.
+Run `bash MPO/MPO_TEST/test_iu_xray.sh` to test a model on the IU X-Ray data.
 
-Run `bash PMO/PMO_TEST/test_mimic_cxr.sh` to test a model on the MIMIC-CXR data.
-
+Run `bash MPO/MPO_TEST/test_mimic_cxr.sh` to test a model on the MIMIC-CXR data.
 
